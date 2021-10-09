@@ -14,26 +14,60 @@
 
     <style>
         .paragraph1 {
-            display: inline-block; 
             background: rgb(229, 255, 0);
             border: 2px dotted black;
+            display: inline-block; 
+            margin: 2px;
+            padding: 0 4 5px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px grey;
+        }
+
+        .paragraph1:hover {
+            cursor: e-resize;
+            background: skyblue;
+            border-width: 4px;
+            padding: 6px;
+            box-shadow: 0 0 30px white;
         }
 
         .paragraph2 {
-            display: inline-block; 
             background: rgb(255, 0, 0);
             border: 8px double rgb(255, 187, 0);
+            display: inline-block; 
+            margin: 4px;
+            padding: 0 2 6 1px;
+        }
+
+        .paragraph2:hover {
+            cursor: all-scroll;
+            background: #fff;
+            border-radius: 8px;
+            left: -1px;
         }
 
         .paragraph3 {
-            display: inline-block; 
             background: rgb(255, 0, 255);
             border: 8px inset rgb(78, 14, 228);
+            display: inline-block; 
+            margin: 7px;
+            padding: 0 4px;
+            box-shadow: 8px grey;
+        }
+
+        .paragraph3:hover {
+            border: 1px solid;
+            outline-color: rgba(255, 255, 255, 0);
+            text-shadow: 1px 1px 2px #427388;
         }
 
         .name {
             display: inline-block; 
+            margin: 2px;
             padding: 8px; 
+        }
+
+        .name:hover {
         }
     </style>
 
