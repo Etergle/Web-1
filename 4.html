@@ -14,8 +14,16 @@
 
     <style>
 
-        .adjective {
+        .paragraph1 .adjective {
             background: yellow;
+        }
+
+        .paragraph2 .adjective {
+            background: rgb(0, 255, 42);
+        }
+
+        .paragraph3 .adjective {
+            background: rgb(255, 0, 191);
         }
 
         .adjective:hover {
@@ -52,16 +60,34 @@
             text-align:center; 
         }
 
+        .paragraph1:hover.bordered {
+            margin: 8px; 
+            padding: 8px 16px; 
+            border: 10px solid seagreen;
+        }
+
         .paragraph2 {
             width: 500px; 
             background: linear-gradient(80deg, #31eedb, #ffa6f3); 
             text-align:right; 
         }
 
+        .paragraph2:hover.bordered {
+            margin: 8px; 
+            padding: 8px 16px; 
+            border: 10px solid firebrick;
+        }
+
         .paragraph3 {
             width: 50%; 
             background: #30b3ac; 
             text-align:left; 
+        }
+
+        .paragraph3:hover.bordered {
+            margin: 8px; 
+            padding: 8px 16px; 
+            border: 10px solid greenyellow;
         }
 
     </style>
