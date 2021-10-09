@@ -6,41 +6,20 @@
     <title>Вёрстка 4</title>
 </head>
 <body>
-    <div style class="paragraph1 bordered"><span style="background: rgb(255, 0, 225)", class="name">Филипп Филиппович</span> вошел в азарт, <span style class="adjective border">ястребиные</span> ноздри его раздувались. Набравшись сил после <span style class="adjective border">сытного</span> обеда, гремел он подобно <span style class="adjective border">древнему</span> пророку, и голова его сверкала серебром.</div>
+    <div style class="paragraph1 bordered"><span style="background: rgb(255, 0, 225)", class="name">Филипп Филиппович</span> вошел в азарт, <span style class="adjective bordered">ястребиные</span> ноздри его раздувались. Набравшись сил после <span style class="adjective bordered">сытного</span> обеда, гремел он подобно <span style class="adjective bordered">древнему</span> пророку, и голова его сверкала серебром.</div>
 
-    <div style class="paragraph2 bordered">Его слова на <span style class="adjective border">сонного</span> пса падали, точно <span style class="adjective border">глухой</span> <span style class="adjective border">подземный</span> гул. То сова с <span style class="adjective border">глупыми</span> <span style class="adjective border">желтыми</span> глазами выскакивала в <span style class="adjective border">сонном</span> видении, то <span style class="adjective border">гнусная</span> рожа палача в <span style class="adjective border">белом</span> <span style class="adjective border">грязном</span> колпаке, то <span style class="adjective border">лихой</span> ус <span style="background: linear-gradient(80deg, #eeac31, #7e021d)", class="name">Филипп Филипповича</span>, освещенный <span style class="adjective border">резким</span> электричеством из абажура, то <span style class="adjective border">сонные</span> сани скрипели и пропадали, а в <span style class="adjective border">собачьем</span> желудке варился, плавая в соку, <span style class="adjective border">истерзанный</span> кусок ростбифа.</div>
+    <div style class="paragraph2 bordered">Его слова на <span style class="adjective bordered">сонного</span> пса падали, точно <span style class="adjective bordered">глухой</span> <span style class="adjective bordered">подземный</span> гул. То сова с <span style class="adjective bordered">глупыми</span> <span style class="adjective bordered">желтыми</span> глазами выскакивала в <span style class="adjective bordered">сонном</span> видении, то <span style class="adjective bordered">гнусная</span> рожа палача в <span style class="adjective bordered">белом</span> <span style class="adjective bordered">грязном</span> колпаке, то <span style class="adjective bordered">лихой</span> ус <span style="background: linear-gradient(80deg, #eeac31, #7e021d)", class="name">Филипп Филипповича</span>, освещенный <span style class="adjective bordered">резким</span> электричеством из абажура, то <span style class="adjective bordered">сонные</span> сани скрипели и пропадали, а в <span style class="adjective bordered">собачьем</span> желудке варился, плавая в соку, <span style class="adjective bordered">истерзанный</span> кусок ростбифа.</div>
 
-    <div style class="paragraph3 bordered">«Он мог бы прямо на митингах деньги зарабатывать, – <span style class="adjective border">мутно</span> мечтал пес, – <span style class="adjective border">первоклассный</span> деляга. Впрочем, у него и так, по-видимому, куры не клюют».</div>
+    <div style class="paragraph3 bordered">«Он мог бы прямо на митингах деньги зарабатывать, – <span style class="adjective bordered">мутно</span> мечтал пес, – <span style class="adjective bordered">первоклассный</span> деляга. Впрочем, у него и так, по-видимому, куры не клюют».</div>
 
     <style>
 
         .adjective {
+            background: yellow;
         }
 
-        .bordered {
-            border: 2px dashed black;
+        .adjective:hover {
             display: inline-block; 
-            margin: 2px; 
-            padding: 0 4px;
-            border-radius: 8px;
-            box-shadow: 0 0 8px grey;
-        }
-
-        .name {
-            display: inline-block; 
-            margin: 2px;
-            padding: 8px; 
-        }
-
-        .name:hover {
-        }
-
-        .paragraph1 {
-            background: rgb(229, 255, 0);
-            box-shadow: 0 0 8px grey;
-        }
-
-        .paragraph1:hover {
             cursor: e-resize;
             background: skyblue;
             border-width: 4px;
@@ -48,26 +27,41 @@
             box-shadow: 0 0 30px white;
         }
 
-        .paragraph2 {
-            background: rgb(255, 0, 0);
+        .bordered {
+            border: 2px dashed black;
+            display: inline-block;  
+            margin: 2px; 
+            padding: 0 4px;
+            border-radius: 8px;
         }
 
-        .paragraph2:hover {
+        .name {
+            display: inline-block; 
+        }
+
+        .name:hover {
+            display: inline-block; 
             cursor: all-scroll;
             background: #fff;
-            border-radius: 8px;
+            border-radius: 18px;
             left: -1px;
         }
 
-        .paragraph3 {
-            background: rgb(255, 0, 255);
-            box-shadow: 8px grey;
+        .paragraph1 {
+            background: #30b33b; 
+            text-align:center; 
         }
 
-        .paragraph3:hover {
-            border: 1px solid;
-            outline-color: rgba(255, 255, 255, 0);
-            text-shadow: 1px 1px 2px #427388;
+        .paragraph2 {
+            width: 500px; 
+            background: linear-gradient(80deg, #31eedb, #ffa6f3); 
+            text-align:right; 
+        }
+
+        .paragraph3 {
+            width: 50%; 
+            background: #30b3ac; 
+            text-align:left; 
         }
 
     </style>
