@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вёрстка 8</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     
@@ -110,20 +111,10 @@
     </div>
 
     <style>
-        .block {
-            border: 1px solid black;
-            margin-bottom: 0.5rem;
-            margin: 0.25rem;
-            padding: 0.5rem;
-        }
-        .column {
-            background: rgb(255, 230, 0);
-            justify-content: space-between;
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+        [class*="col-auto"] {
+            background: rgb(255, 230, 0); 
             height: 200px;
-            flex-basis: 200px;
+            width: 200px;
             margin: 0.5rem;
             padding: 0.5rem;
             flex-shrink: 0;
